@@ -16,12 +16,18 @@ This project is working toward a complete character skinning & animation library
 
 ### Setup ###
 
+To be able to run the examples, you'll need to clone the resource submodule. The files are quite large, so they are kept in a [seperate repo](https://github.com/sketchpunk/res) to keep this project as light weight as possible.
+
+```
+git submodule update --init
+```
+
+Then to run this project:
+
 ```
 npm install
 npm run dev
 ```
-
-**[ NOTE ]** To be able to run the example, you'll need to go into /examples/_res/ and follow the instructions to clone the resource repo. The files are quite large, so they are kept in a seperate repo to keep this project as light weight as possible.
 
 ## Usage ###
 
