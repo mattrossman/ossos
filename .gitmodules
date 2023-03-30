@@ -1,0 +1,3 @@
+[submodule "examples/_res"]
+	path = examples/_res
+	url = https://github.com/sketchpunk/res.git
